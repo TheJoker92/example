@@ -1,0 +1,26 @@
+.container {
+    height: calc(100% - 20px);
+    display: flex;
+}
+
+.border-footer {
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(45deg, orange, violet, blue, rgb(35, 174, 209))
+}
+
+.page-container {
+    width:100%
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 60px);
+}
+
+.right-panel,
+.main-panel {
+    display: flex;
+    flex-direction: column;
+}

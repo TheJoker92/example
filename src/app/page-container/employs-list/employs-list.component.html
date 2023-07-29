@@ -1,0 +1,24 @@
+<div class="container">
+    <input type="text">
+    <div class="filter-container">
+        <ul>
+            <li><a href="">Disponibili</a></li>
+            <li><a href="">Occupati</a></li>
+        </ul>
+    </div>
+    <div class="service-list-container">
+        <div *ngFor="let item of [1,2,3]">
+            <div class="row">
+                <div class="text">
+                    <strong>Impiegato {{ item }}</strong>
+                    <p>descrizione</p>
+                    <small>info</small>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-pencil"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
