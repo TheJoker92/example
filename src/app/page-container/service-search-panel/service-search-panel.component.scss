@@ -35,6 +35,16 @@ ul {
     }
 }
 
+.search-input {
+    display: flex;
+    background-color: #acacac;
+    align-items: center;
+
+    i {
+        padding: 5px;
+    }
+}
+
 input {
     border: none;
     background-color: rgb(172, 172, 172);
