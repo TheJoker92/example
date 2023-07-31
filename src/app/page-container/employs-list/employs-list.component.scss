@@ -76,3 +76,9 @@ input {
     color: white;
     cursor: pointer;
 }
+
+.employs-list-container {
+    overflow: auto;
+    width: 90%;
+    max-height: 40vh;
+}

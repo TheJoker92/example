@@ -8,3 +8,9 @@
     display: flex;
     flex-direction: column;
 }
+
+.list-container {
+    overflow: auto;
+    width: 90%;
+    max-height: 40vh;
+}
